@@ -17,6 +17,17 @@
             <br />
             <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             <br />
+            <asp:Label ID="Label1" runat="server" Text="1"></asp:Label>
+            <asp:TextBox ID="txt1" runat="server"></asp:TextBox>
+            <br />
+            <asp:Label ID="Label2" runat="server" Text="2"></asp:Label>
+            <asp:TextBox ID="txt2" runat="server"></asp:TextBox>
+            <br />
+            <asp:Button ID="Button2" runat="server" OnClick="Butset_Click1" Text="set" />
+            <asp:Button ID="Button3" runat="server" OnClick="Butget_Click" Text="get" />
+            <br />
+            <br />
+            <br />
             <br>
         </div>
     </form>

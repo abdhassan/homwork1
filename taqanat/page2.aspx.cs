@@ -25,5 +25,26 @@ namespace taqanat
         {
 
         }
+
+        protected void Button2_Click1(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Butset_Click1(object sender, EventArgs e)
+        {
+            ViewState["first"] = txt1.Text;
+            ViewState["last"] = txt2.Text;
+            txt1.Text = txt2.Text ="";
+
+        }
+
+        
+
+        protected void Butget_Click(object sender, EventArgs e)
+        {
+            txt1.Text = ViewState["first"].ToString();
+            txt1.Text = ViewState["last"].ToString();
+        }
     }
 }
