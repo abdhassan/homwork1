@@ -11,7 +11,9 @@ namespace taqanat
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            this.TextBox1.Text = Request.QueryString[0];
+            this.TextBox2.Text = Request.QueryString[1];
+        
         }
 
         protected void Button1_Click(object sender, EventArgs e)

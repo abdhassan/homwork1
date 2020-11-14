@@ -15,6 +15,14 @@
             <br>
             <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" /><br>
             <asp:Button ID="Button2" runat="server" Text="go to page2" OnClick="Button2_Click" />
+            <br />
+            <br />
+            <asp:TextBox ID="name" runat="server" OnTextChanged="TextBox3_TextChanged"></asp:TextBox>
+            <br />
+            <asp:TextBox ID="lastname" runat="server"></asp:TextBox>
+            <br />
+            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="submit" />
+            <br />
         </div>
     </form>
 </body>

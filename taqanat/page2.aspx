@@ -11,7 +11,13 @@
         <div>
             <p>this is page two</p>
             <asp:CheckBox ID="CheckBox1" runat="server" /><br>
-            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" /><br>
+            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+            <br />
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <br />
+            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <br />
+            <br>
         </div>
     </form>
 </body>
