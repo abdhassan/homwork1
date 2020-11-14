@@ -28,6 +28,7 @@
             <br />
             <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="cookis" />
             <asp:Button ID="btnsession" runat="server" OnClick="btnsession_Click" Text="session" />
+            <asp:Button ID="Btnapp" runat="server" OnClick="Btnapp_Click" Text=" Application" />
             <br />
             <br />
             <br>
