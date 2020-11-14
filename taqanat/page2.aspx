@@ -26,6 +26,7 @@
             <asp:Button ID="Button2" runat="server" OnClick="Butset_Click1" Text="set" />
             <asp:Button ID="Button3" runat="server" OnClick="Butget_Click" Text="get" />
             <br />
+            <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="cookis" />
             <br />
             <br />
             <br>

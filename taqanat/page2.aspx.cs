@@ -13,6 +13,7 @@ namespace taqanat
         {
             this.TextBox1.Text = Request.QueryString[0];
             this.TextBox2.Text = Request.QueryString[1];
+          
         
         }
 
@@ -45,6 +46,14 @@ namespace taqanat
         {
             txt1.Text = ViewState["first"].ToString();
             txt1.Text = ViewState["last"].ToString();
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            HttpCookie my = new HttpCookie("password", "1,2,3,4,5");
+            Response.Cookies.Add(my);
+            Response.Redirect("page3.aspx");
+
         }
     }
 }
