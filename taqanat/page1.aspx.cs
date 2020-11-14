@@ -31,7 +31,7 @@ namespace taqanat
         protected void Button3_Click(object sender, EventArgs e)
         { 
             Response.Redirect
-          ( "page2.aspx" +"name"+this.name.Text + "lastname" + this.lastname.Text);
+          ("page2.aspx? name="+this.name.Text + "&" + this.lastname.Text);
         }
 
         protected void TextBox3_TextChanged(object sender, EventArgs e)
