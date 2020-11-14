@@ -30,7 +30,7 @@ namespace taqanat
         }
 
         protected void Button3_Click(object sender, EventArgs e)
-        { 
+        { //quristring
             Response.Redirect
           ("page2.aspx? name="+this.name.Text + "&" + this.lastname.Text);
         }

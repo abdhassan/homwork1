@@ -10,7 +10,7 @@
 namespace taqanat {
     
     
-    public partial class page3 {
+    public partial class page4 {
         
         /// <summary>
         /// form1 control.
@@ -22,12 +22,12 @@ namespace taqanat {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Textcoo control.
+        /// TextBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textcoo;
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
     }
 }

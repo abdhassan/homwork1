@@ -33,7 +33,7 @@ namespace taqanat
         }
 
         protected void Butset_Click1(object sender, EventArgs e)
-        {
+        {//viewstate
             ViewState["first"] = txt1.Text;
             ViewState["last"] = txt2.Text;
             txt1.Text = txt2.Text ="";
@@ -49,11 +49,17 @@ namespace taqanat
         }
 
         protected void Button4_Click(object sender, EventArgs e)
-        {
+        {//cookie
             HttpCookie my = new HttpCookie("password", "1,2,3,4,5");
             Response.Cookies.Add(my);
             Response.Redirect("page3.aspx");
 
+        }
+
+        protected void btnsession_Click(object sender, EventArgs e)
+        {//session
+            Session["username"]="abd";
+            Response.Redirect("page4.aspx");
         }
     }
 }

@@ -27,6 +27,7 @@
             <asp:Button ID="Button3" runat="server" OnClick="Butget_Click" Text="get" />
             <br />
             <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="cookis" />
+            <asp:Button ID="btnsession" runat="server" OnClick="btnsession_Click" Text="session" />
             <br />
             <br />
             <br>
