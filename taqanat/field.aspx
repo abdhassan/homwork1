@@ -10,10 +10,10 @@
     <form id="form1" runat="server">
     <div>
     
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox1" runat="server" style="font-size: large"></asp:TextBox>
         <br />
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="set" />
-        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="get" />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="font-size: large; color: #00CCFF" Text="set" />
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" style="font-size: large; font-weight: 700; color: #0099CC" Text="get" />
         <asp:HiddenField ID="HiddenField1" runat="server" Value="oo" />
     
     </div>
